@@ -1,0 +1,27 @@
+{
+    "name": "math-alg",
+    "version": "1.0.0",
+    "description": "A math project to include math algorithms",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "compile": "tsc index.ts",
+        "cli": "node index.js"
+    },
+    "keywords": [
+        "Typescript",
+        "Math",
+        "Pascal",
+        "Triangle",
+        "Fibonnaci"
+    ],
+    "author": "afaferz",
+    "license": "ISC",
+    "dependencies": {
+        "chalk-pipe": "^5.1.1",
+        "inquirer": "^8.2.4"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^8.2.1"
+    }
+}
